@@ -5,7 +5,7 @@ pipeline {
     }
     stages {
         
-        stage('Kitchen') {
+        /*stage('Kitchen') {
             when {
                 anyOf {
                     changeset "*kitchen-service/**"
@@ -57,7 +57,7 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
 
         stage('Database') {
             steps {
